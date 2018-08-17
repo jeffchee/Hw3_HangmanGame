@@ -42,12 +42,11 @@ function getSpaces(word){
     }
 
 }
-
-
+console.log(getSpaces);
 
 // setting blank spaces
 document.getElementById("demo").innerHTML = blankSpaces;
-
+console.log(blankSpaces);
 
 
 for(var i=0; i<choices.length;i++){
